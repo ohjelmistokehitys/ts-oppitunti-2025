@@ -1,0 +1,4 @@
+# This line sets all files (*) to use automatic text normalization (text=auto) and
+# enforces LF (Unix-style) line endings (eol=lf) in the repository.
+
+* text=auto eol=lf
