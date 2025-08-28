@@ -26,3 +26,4 @@ const days = ["ma", "ti", "ke", "to", "pe"] as const;
 // days.push("hello");
 // days.push("world");
 // Property 'push' does not exist on type 'readonly ["ma", "ti", "ke", "to", "pe"]'
+

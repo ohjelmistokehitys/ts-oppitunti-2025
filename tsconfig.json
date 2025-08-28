@@ -12,7 +12,9 @@
       "ESNext",
       "DOM"
     ],
-    "types": [],
+    "types": [
+      "node"
+    ],
     // For nodejs:
     // "types": ["node"],
     // and npm install -D @types/node
@@ -38,5 +40,6 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
+    "esModuleInterop": true,
   }
 }
