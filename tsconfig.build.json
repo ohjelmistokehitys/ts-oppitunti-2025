@@ -1,0 +1,9 @@
+{
+    "extends": "./tsconfig.json",
+    // exclude tests and previous build outputs from compilation
+    "exclude": [
+        "dist",
+        "**/*.test.ts",
+        "**/*.spec.ts"
+    ]
+}

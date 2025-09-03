@@ -1,9 +1,9 @@
 import { readFile, readFileSync } from 'fs';
 import path from 'path';
 import City, { RawCityData } from './City';
+
 const jsonFile: string = path.join(__dirname, '..', 'data.json');
 const jsonData = readFileSync(jsonFile, "utf-8");
-
 
 const rawCities = JSON.parse(jsonData) as RawCityData[];
 
