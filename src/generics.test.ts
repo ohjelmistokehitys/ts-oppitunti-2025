@@ -45,6 +45,14 @@ describe('Pick properties from objects', () => {
     });
 
     // FIXME: add types to the function to fix this test
+    it.skip('should be able to use the names as strings', () => {
+        const names = pick(users, 'name');
+
+        // const first: string = names[0]!;
+        // expect(first.toLowerCase()).toBe('alice');
+    });
+
+    // FIXME: add types to the function to fix this test
     it.skip('should be able to use the ages as an array of numbers', () => {
         const ages = pick(users, 'age');
 
