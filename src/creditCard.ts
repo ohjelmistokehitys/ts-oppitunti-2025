@@ -8,14 +8,3 @@ export function maskCreditCardNumber(creditCard: string | number, showNumbers: n
     }
     return creditCard.slice(-showNumbers).padStart(creditCard.length, "*");
 }
-
-const visaCard = "4111111111111111";
-const masterCard = "5555555555554444";
-const amexCard = "3782810005";
-const discoverCard = "60111111111117";
-
-console.log(maskCreditCardNumber(visaCard));
-console.log(maskCreditCardNumber(masterCard));
-console.log(maskCreditCardNumber(amexCard));
-console.log(maskCreditCardNumber(discoverCard));
-
